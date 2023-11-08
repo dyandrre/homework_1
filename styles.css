@@ -1,0 +1,152 @@
+:root {
+    --color-primary-dark: #011C44;
+    --color-primary-light: #2B7FFF;
+}
+
+body {
+    color: var(--color-primary-dark);
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header Styles */
+
+.header-link {
+    color: var(--color-primary-dark);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.header-link:hover {
+    color: var(--color-primary-light);
+    font-weight: 700;
+}
+
+/* 1st Section */   
+
+.hero-title {
+    color: var(--color-primary-light);
+    font-family: Play;
+    font-size: 140px;
+    line-height: 114px;
+    text-transform: capitalize;
+    line-height: 0.8;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.button {
+    border-radius: 32px;
+    color: #ffffff;
+    background: var(--color-primary-dark);
+    border: 0px;
+}
+
+.button:hover {
+    border: 2px solid #2B7FFF;
+    background-color: transparent;
+    color: var(--color-primary-dark);
+}
+
+.section-title {
+    font-family: Play;
+    font-size: 64px;
+}
+
+.section-title .accent {
+    color: var(--color-primary-light);
+}
+
+.about-us-free {
+    color: #4A4A4A;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* service section */
+
+.service-text {
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.service-text-accent {
+    text-transform: capitalize;
+}
+
+.service-section h2 .accent {
+    text-transform: capitalize;
+}
+
+.title-ad {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Why us section */
+
+.cards-text {
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.3;
+    font-weight: 400;
+}
+
+/* Our procedures Section */
+
+.our-prosedures-cards-text {
+    color: white;
+    line-height: 1.18;
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+/* contacts */
+
+.gift-title {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+
+.gift-accent {
+    color: var(--color-primary-light);
+}
+
+.privacy-policy {
+    color: #747272;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/* footer */
+
+.nav {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.no-copyright {
+    color: #747272;
+    font-size: 13px;
+    font-weight: 400;
+}
